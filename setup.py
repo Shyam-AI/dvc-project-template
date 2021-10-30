@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = "dvc-project-template"
+REPO_NAME = "dvc-nlp"   #https://github.com/Shyam-AI/dvc-nlp
 AUTHOR_USER_NAME = "Shyam-AI"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
@@ -17,7 +17,7 @@ setup(
     description="A small package for DVC",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url="https://github.com/Shyam-AI/dvc-nlp",
     author_email="shyamdl2803@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
