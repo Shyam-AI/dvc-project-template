@@ -1,5 +1,5 @@
 # dvc-project-template
-NLP use project
+DVC project template
 
 ## STEPS -
 
